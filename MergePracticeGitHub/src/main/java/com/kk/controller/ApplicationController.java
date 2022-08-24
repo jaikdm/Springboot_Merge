@@ -12,4 +12,9 @@ public class ApplicationController {
     public String sayHello(){
         return "Kartik Kadam here...";
     }
+
+    @GetMapping("/address")
+    public  String sayAddress(){
+        return "NANDED | MAHARASHTRA | INDIA | ASIA .";
+    }
 }
