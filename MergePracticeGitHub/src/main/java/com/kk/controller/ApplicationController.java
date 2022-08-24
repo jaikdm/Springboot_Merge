@@ -22,4 +22,10 @@ public class ApplicationController {
     public  String saySurName(){
         return "KADAM";
     }
+
+    @GetMapping("/school")
+    public  String saySchool(){
+        return "Mahatma Phule Jr Clg,Nanded.";
+    }
+
 }
