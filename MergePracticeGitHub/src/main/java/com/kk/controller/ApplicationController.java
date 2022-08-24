@@ -17,4 +17,9 @@ public class ApplicationController {
     public  String sayAddress(){
         return "NANDED | MAHARASHTRA | INDIA | ASIA .";
     }
+
+    @GetMapping("/surname")
+    public  String saySurName(){
+        return "KADAM";
+    }
 }
